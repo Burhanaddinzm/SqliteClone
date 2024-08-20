@@ -32,6 +32,10 @@
         "cstdint": "cpp",
         "locale": "c",
         "xlocmes": "c",
-        "xlocnum": "c"
+        "xlocnum": "c",
+        "stat.h": "c",
+        "stdint.h": "c",
+        "fcntl.h": "c",
+        "corecrt.h": "c"
     }
 }
