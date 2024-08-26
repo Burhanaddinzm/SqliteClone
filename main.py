@@ -1,7 +1,7 @@
 import subprocess
 
 db = subprocess.Popen(args=["./output.exe", "test.db"], stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
-for i in range(13):
+for i in range(412):
     db.stdin.write(f"insert {i + 1} test test@test.com\n".encode())
 
 db.stdin.write("select\n".encode())
