@@ -1,1 +1,1 @@
-Creadits to https://cstack.github.io/db_tutorial/
+Credits to https://cstack.github.io/db_tutorial/
